@@ -3,6 +3,8 @@ miniWall
 
 # 效果图
 
+[点击跳转](http://139.9.115.248)
+
 ![miniwall](http://139.9.115.248/imgs/miniwall1.png)
 
 ![miniwall](http://139.9.115.248/imgs/miniwall2.png)
