@@ -5,9 +5,9 @@ miniWall
 
 [点击跳转](http://139.9.115.248)
 
-![xxx](http://139.9.115.248/imgs/miniwall1.png)
+![img1](http://139.9.115.248/imgs/miniwall1.png)
 
-![xxxxxx](http://139.9.115.248/imgs/miniwall2.png)
+![img1](http://139.9.115.248/imgs/miniwall2.png)
 
 # 使用
   * git clone https://github.com/TTTJH/miniWall.git
