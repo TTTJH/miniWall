@@ -1,7 +1,7 @@
 # miniWall
 miniWall
 
-#效果图
+# 效果图
 ![miniwall](http://139.9.115.248/imgs/miniwall.gif)
 
 # 使用
