@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 const {CardModel} = require("../db/index");
 
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index');
@@ -12,7 +13,6 @@ router.post("/submit", function(req, res){
   const {iconIndex, playerName, textarea} = req.body;
 
   const cardModel = new CardModel({iconIndex, playerName, textarea});
-
   cardModel.save((err, doc) => {
     if(err){
       res.send({code:0})

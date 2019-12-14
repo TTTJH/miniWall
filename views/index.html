@@ -583,11 +583,14 @@
                         content.append(card);
 
                         const index = document.querySelectorAll(".card").length - 1;
-                        let remainder = index % 6;
 
-                        card.style.left = remainder * 270 + 'px';
-                        card.style.top = window[`num${remainder}`] + 20 + 'px';
-                        window[`num${remainder}`] += card.clientHeight + 20;
+
+                        setPosition(card, index);
+                        // let remainder = index % 6;
+
+                        // card.style.left = remainder * 270 + 'px';
+                        // card.style.top = window[`num${remainder}`] + 20 + 'px';
+                        // window[`num${remainder}`] += card.clientHeight + 20;
                     })
                     successalert.style.display = 'inline-block';
                     successalert.className += ' animated fadeInDown';
